@@ -6,5 +6,5 @@ read -p "Enter the Third Number : " c
 echo  "First Number A is : $a"
 echo "second Number B is : $b"
 echo "Third Number C is : $c"
-s=$((c+a/b))
-echo "c+a/b="$s
+s=$((a%b+c))
+echo "a%b+c="$s
